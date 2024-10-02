@@ -27,6 +27,19 @@ body {
   overscroll-behavior-y: none;
   font-size: 40px;
 }
+
+.flex {
+  display: flex;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.relative {
+  position: relative;
+}
+
 .absolute {
   position: absolute;
 }
@@ -38,4 +51,17 @@ body {
 }
 .cursor {
   color: white;
+}
+
+.texture-selector {
+  transform: scale(5);
+}
+
+.texture-selector img.active {
+  border: 2px solid red;
+}
+
+.menu {
+  top: 0px;
+  left: 10px;
 }
